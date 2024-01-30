@@ -1,0 +1,81 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('https://pages.mtu.edu/~cai/cyberhusky/goldgame/sky.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+}
+
+/* Scoreboard styles */
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Timer styles */
+#timer {
+    position: absolute;
+    top: 40px; /* Adjust spacing between Score and Timer */
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Bomb counter styles */
+#bombCounter {
+    position: absolute;
+    top: 70px; /* Adjust positioning as needed */
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Hidden class */
+.hidden {
+    display: none;
+}
+
+/* Styles for uhOhText */
+#uhOhText {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translateX(-50%);
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hidden class to hide the "Uh oh" text by default */
+.hidden {
+    display: none;
+}
+/* Start button styles */
+#startButton {
+    position: absolute;
+    top: 100px; /* Adjust positioning as needed */
+    left: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for start button */
+#startButton:hover {
+    background-color: #45a049;
+}
